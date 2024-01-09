@@ -6,7 +6,6 @@ body {
 
 .container {
     height: 100vh;
-    width: 100vw;
     display: grid;
     grid-template-rows: 20% auto;
     grid-template-columns: 17% auto;
@@ -188,6 +187,60 @@ body {
 .main-container #text-card #title {
     font-weight: 700;
     
+}
+
+.right-bar {
+    margin-top: 12px;
+    
+
+}
+
+.right-bar .card {
+    background-color: #f1f5f9;
+    padding: 24px;
+    height: 1fr;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right-bar .announcements-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 48px;
+    padding: 32px;
+}
+
+.right-bar .card p {
+    margin: 0;
+}
+
+.grey-line {
+    background-color: #878c92;
+    opacity: 0.4;
+    height: 2px;
+    width: 100%;
+    border-radius: 24px;
+    margin: 18px 0; 
+}
+
+.right-bar .card .title {
+    font-weight: 700;
+    margin-bottom: 6px;
+    
+}
+
+
+.trending-container img {
+    height: 65px;
+
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 11px;
 }
 
 
