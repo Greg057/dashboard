@@ -48,23 +48,27 @@ body {
 .header {
     grid-area: 1 / 2 / 2 / 3;
     background-color: #f1f5f9;
-    padding: 24px;
+    padding: 10px 72px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 45px 1fr;
 
+}
+
+.header i {
+    font-size: 28px;
 }
 
 .search-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 35px;
 }
 
 .search-container #searchbar {
     background-color: #cbd5e1;
-    border-radius: 12px;
-    height: 1.5rem;
+    border-radius: 14px;
+    height: 1.7rem;
     flex: 1;
 }
 
@@ -73,7 +77,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 15px;
+    gap: 35px;
 }
 
 .profile-container img {
@@ -81,6 +85,51 @@ body {
     width: auto;
 }
 
+.profile-container #text {
+    font-weight: 700;
+}
+
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.welcome-container .welcome-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 700;
+}
+
+.welcome-container #big-text {
+    font-size: 1.3rem;
+}
+
+.welcome-container img {
+    height: 85px;
+    width: auto;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.buttons-container button {
+    border-radius: 32px;
+    border: none;
+    background-color: #020617;
+    width: 125px;
+    height: 2.5rem;
+    padding: 8px 14px;
+    color: #f1f5f9;
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 .main {
     grid-area: 2 / 2 / 3 / 3;
