@@ -18,10 +18,10 @@ body {
     background-color: #020617;
     color: #f0f9ff;
     padding: 24px;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 600;
     display: grid;
-    grid-template-rows: repeat(12, 5%);
+    grid-template-rows: repeat(12, 40px);
     grid-template-columns: 45px auto;
     gap: 10px 25px;
     align-items: center;
@@ -48,7 +48,7 @@ body {
 .header {
     grid-area: 1 / 2 / 2 / 3;
     background-color: #f1f5f9;
-    padding: 10px 72px;
+    padding: 10px 56px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 45px 1fr;
@@ -131,7 +131,45 @@ body {
     font-size: 1rem;
 }
 
+
+
 .main {
     grid-area: 2 / 2 / 3 / 3;
     background-color: #cbd5e1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 5% auto;
+    padding: 24px 56px;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 46px;
+    margin: 12px 46px 12px 0;
+}
+
+.main-container .card {
+    background-color: #f1f5f9;
+    height: 250px;
+    width: auto;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 26px;
+    padding-right: 24px;
+}
+
+.main-container .bar-card {
+    height: 100%;
+    min-width: 14px;
+    background-color: #020617;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.main-container #text-card {
+
+}
+
