@@ -52,10 +52,9 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 45px 1fr;
-
 }
 
-.header i {
+.header .material-symbols-outlined {
     font-size: 28px;
 }
 
@@ -146,8 +145,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-    gap: 46px;
-    margin: 12px 46px 12px 0;
+    gap: 24px 36px;
+    margin: 12px 36px 12px 0;
 }
 
 .main-container .card {
@@ -159,7 +158,8 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 26px;
-    padding-right: 24px;
+    padding-right: 28px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .main-container .bar-card {
@@ -169,7 +169,27 @@ body {
     border-radius: 12px 0px 0px 12px;
 }
 
-.main-container #text-card {
-
+.main-container .card #icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 44px;
+    
 }
+
+.main-container .material-symbols-outlined {
+    font-size: 28px;
+}
+
+.main > p, .right-bar .trending-container > p {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.main-container #text-card #title {
+    font-weight: 700;
+    
+}
+
+
+
 
